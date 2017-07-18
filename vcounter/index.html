@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Vote Counter Web Application</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+    <div class="container">      
+      <div class="row">
+        <div class="col-md-6 paslon-box">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div align="center">
+                <h3>#1 Candidate</h3>
+              </div>
+            </div>
+            <div class="panel-body">
+              <div class="row">
+                  <div class="col-md-12">
+                    <div align="center">
+                      <img src="img/profile-photo.png" alt="profile-photo">
+                    </div>
+                  </div>
+              </div>
+              <hr>
+                <div align="center">
+                  <span id="paslon1">0</span>
+                </div>
+              <hr>
+              <div class="row">
+                <div align="center">
+                  <a id="btn-paslon1" class="btn">VOTE!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 paslon-box">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div align="center">
+                <h3>#2 Candidate</h3>
+              </div>
+            </div>
+            <div class="panel-body">
+              <div class="row">
+                  <div class="col-md-12">
+                    <div align="center">
+                      <img src="img/profile-photo.png" alt="profile-photo">
+                    </div>
+                  </div>
+              </div>
+              <hr>
+                <div align="center">
+                  <span id="paslon2">0</span>
+                </div>
+              <hr>
+              <div class="row">
+                <div align="center">
+                  <a id="btn-paslon2" class="btn">VOTE!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div align="center">
+          <div class="col-md-12">
+            <div class="progress">
+              <div id="progressbar1" class="progress-bar progress-bar-default progress-bar-striped active" style="width: 50%">
+                <span id="percentage1">50%</span>
+              </div>
+              <div id="progressbar2" class="progress-bar progress-bar-info progress-bar-striped active" style="width: 50%">
+                <span id="percentage2">50%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+.paslon-box{
+  margin-top: 40px;
+}
+
+#paslon1,#paslon2{
+  font-size: 50px;
+  color: #41439b;
+}
+
+.btn{
+  font-size: 30pt;
+  background-color: #41439b;
+  color:#ffffff;
+}
+.btn:hover{
+  background-color: #272974;
+  color:#cdcdcd;
+}
